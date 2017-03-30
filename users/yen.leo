@@ -22,7 +22,7 @@
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170224232341.1"><vh>編輯 template</vh>
 <v t="yen.20170224232341.2" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170224232341.3"><vh>@edit base.html</vh></v>
 </v>
@@ -222,12 +222,12 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="yen.20170108171733.15">## 2017Spring Cd上課報告
+<t tx="yen.20170108171733.15">## 2017Spring_cd 上課報告
 
-### 設計二甲 邱弘丞
+### 設計二甲 紀鈞瀚
 
 &lt;small&gt;
-Created by [40423125](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423126](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
 [BLOG](blog/index.html)

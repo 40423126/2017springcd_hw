@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = '40423125'
-SITENAME = '40423125上課報告'
+AUTHOR = '40423126'
+SITENAME = '40423126上課作業'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
 
@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Github Wiki', 'https://github.com/40423125/2017springcd_hw/wiki'),)
+LINKS = (('Github Wiki', 'https://github.com/40423126/2017springcd_hw/wiki'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),('Another social link', '#'),)
