@@ -14,14 +14,12 @@
 &lt;p&gt;翻譯影片&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>2017/03/02第二週</title><link href="./20170302di-er-zhou.html" rel="alternate"></link><published>2017-03-02T00:00:00+08:00</published><updated>2017-03-02T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-02:./20170302di-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Solve Space完成四連桿&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
-&lt;p&gt;用solve space完成四連桿圖&lt;/p&gt;
-&lt;p&gt;1.Link1
-&lt;a href="http://imgur.com/6WGdjMG"&gt;&lt;img src="http://i.imgur.com/6WGdjMG.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.Link2
-&lt;a href="http://imgur.com/8AJfCnH"&gt;&lt;img src="http://i.imgur.com/8AJfCnH.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3.Link3
-&lt;a href="http://imgur.com/bOmJdGa"&gt;&lt;img src="http://i.imgur.com/bOmJdGa.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;4.Finish
-&lt;a href="http://imgur.com/XALwKmd"&gt;&lt;img src="http://i.imgur.com/XALwKmd.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;完成圖  HTML
-&lt;iframe src="./../data/hw2/body.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="w2"></category></entry></feed>
+&lt;h1&gt;用solve space完成四連桿圖&lt;/h1&gt;
+&lt;h3&gt;Link1(30CM)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="./../picture/30連桿.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Link2(50CM)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="./../picture/50連桿.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Link3(60CM)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="./../picture/60連桿.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;組合圖&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="./../picture/組合圖連桿.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="w2"></category></entry></feed>
