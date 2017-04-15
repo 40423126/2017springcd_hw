@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-06T00:00:00+08:00</updated><entry><title>2017/04/06第七週</title><link href="./20170406di-qi-zhou.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-04-06:./20170406di-qi-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="w7"></category></entry><entry><title>2017/03/30第六週</title><link href="./20170330di-liu-zhou.html" rel="alternate"></link><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-30:./20170330di-liu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Onshape八連桿組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-</summary><category term="w6"></category></entry><entry><title>2017/03/23第五週</title><link href="./20170323di-wu-zhou.html" rel="alternate"></link><published>2017-03-23T00:00:00+08:00</published><updated>2017-03-23T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-23:./20170323di-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;利用v-rep設定單連桿運動&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-06T00:00:00+08:00</updated><entry><title>2017/04/06第七週</title><link href="./20170406di-qi-zhou.html" rel="alternate"></link><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-04-06:./20170406di-qi-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="w7"></category></entry><entry><title>2017/03/30第六週</title><link href="./20170330di-liu-zhou.html" rel="alternate"></link><updated>2017-03-30T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-30:./20170330di-liu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;利用Onshape做八連桿組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
+
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="#FF0000"&gt;心得：&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;第一次用其他繪圖軟體畫圖及組合，還以為很困難，其實只是要畫很多連桿，找到尺寸後其實沒有太大的困難。&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;h1&gt;影片教學&lt;/h1&gt;
+&lt;h3&gt;八連桿繪製(上集)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213334137" width="640" height="341" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213334137"&gt;錄製_2017_04_15_20_09_16_870&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;八連桿繪製(下集)&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213334504" width="640" height="341" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213334504"&gt;錄製_2017_04_15_20_27_58_165&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="w6"></category></entry><entry><title>2017/03/23第五週</title><link href="./20170323di-wu-zhou.html" rel="alternate"></link><updated>2017-03-23T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-23:./20170323di-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;利用v-rep設定單連桿運動&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;hr/&gt;
 
 &lt;p&gt;利用v-rep設定單連桿運動&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/oC3UNgA"&gt;&lt;img src="http://i.imgur.com/oC3UNgA.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/GF6skRj"&gt;&lt;img src="http://i.imgur.com/GF6skRj.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/3lcqdyr"&gt;&lt;img src="http://i.imgur.com/3lcqdyr.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/GULbM5T"&gt;&lt;img src="http://i.imgur.com/GULbM5T.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;心得:&lt;/p&gt;
-&lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸、馬達....等!&lt;/p&gt;</summary><category term="w5"></category></entry><entry><title>2017/03/16第四週</title><link href="./20170316di-si-zhou.html" rel="alternate"></link><published>2017-03-16T00:00:00+08:00</published><updated>2017-03-16T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-16:./20170316di-si-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="w4"></category></entry><entry><title>2017/03/09第三週</title><link href="./20170309di-san-zhou.html" rel="alternate"></link><published>2017-03-09T00:00:00+08:00</published><updated>2017-03-09T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-09:./20170309di-san-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;翻譯影片&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/GULbM5T"&gt;&lt;img src="http://i.imgur.com/GULbM5T.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="w5"></category></entry><entry><title>2017/03/16第四週</title><link href="./20170316di-si-zhou.html" rel="alternate"></link><updated>2017-03-16T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-16:./20170316di-si-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;fossil小組共用網址&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
-&lt;h2&gt;&lt;a href="https://www.youtube.com/watch?v=Pn3tKkeFVgI"&gt;Hyperworks3&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="#FF0000"&gt;心得：&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;這個網站跟倉儲的網誌不太一樣，它比較方便又能所有成員一起編輯，還省略了很多pyhton的指令，這樣子更能及時紀錄上課時的重點。只不過版面沒有倉儲網誌來得豐富！算是比較可惜一點。
+&lt;hr/&gt;&lt;/p&gt;
+&lt;p&gt;下載 tiny2017 可攜程式系統之後, 可以利用下列 start.bat, 在 Windows 環境中自動擷取電腦連外 IP, 自動設定 stunnel.conf 後, 以 https 協定啟動 Fossil SCM 伺服器.&lt;/p&gt;
+&lt;p&gt;★第六組網址：&lt;a href="https://mde2a2.kmol.info/cdag6"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;按此進入&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;★課程網址：&lt;a href="https://mde2a2.kmol.info/cd"&gt;&lt;button type="button" class="btn btn-primary btn-xs"&gt;按此進入&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+
+&lt;h1&gt;簡單註冊步驟&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="blue"&gt;STEP1:&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;點開後會進入此介面&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/gvs5Tor"&gt;&lt;img src="http://i.imgur.com/gvs5Tor.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="blue"&gt;STEP2:&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;右上角login點進去，輸入ID:yen  密碼:ba1add&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/sALlXSx"&gt;&lt;img src="http://i.imgur.com/sALlXSx.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="blue"&gt;STEP3:&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;先用此帳號登入，之後點Admin/user辦自己的帳號。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/2jpceRS"&gt;&lt;img src="http://i.imgur.com/2jpceRS.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="blue"&gt;STEP4:&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;此介面為點選新增用戶後所呈現的畫面。&lt;/p&gt;
+&lt;p&gt;紅色圈圈→創建ID與密碼&lt;/p&gt;
+&lt;p&gt;藍色框框→為該使用者能擁有的權限選擇
+(只要組長勾選Setup就好)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/vUxBkOS"&gt;&lt;img src="http://i.imgur.com/vUxBkOS.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="blue"&gt;STEP5:&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;創建完成後，到該介面再次確認是否符合需求。&lt;/p&gt;
+&lt;p&gt;綠色框框→第六組組員帳號及權限&lt;/p&gt;
+&lt;p&gt;藍色標示→為組長範例&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/Phc3oGY"&gt;&lt;img src="http://i.imgur.com/Phc3oGY.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="w4"></category></entry><entry><title>2017/03/09第三週</title><link href="./20170309di-san-zhou.html" rel="alternate"></link><updated>2017-03-09T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-09:./20170309di-san-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;小組mission:翻譯影片(英翻中)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;h3&gt;&lt;a href="https://www.youtube.com/watch?v=Pn3tKkeFVgI"&gt;Hyperworks3&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Optistuct's one of our focus area&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="orange"&gt;Optistuct是我們的重點領域之一&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;is nonlinear large deformation analysis and in 2017 we added nonlinear transient analysis the main purpose was to couple Acusolve and structure interaction but also one development that happens during the last year came&lt;/p&gt;
@@ -32,8 +69,11 @@
 &lt;p&gt;depending on the level of expertise or depending on the job that the user has to do they can customize the user experience he added a few new connection one of them is a flux connection such as the electromagnetic code that we just&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="orange"&gt;取決於專業水平或根據用戶必須做的工作，他們可以定制用戶體驗他添加了一些新的連接，其中一個是通量連接，如電磁代碼，我們只是&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;acquired for a low frequency electromagnetic we can now take a flux database and put it into hyper study into your study as well&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;font color="orange"&gt;獲得了一個低頻電磁，我們現在可以採取通量數據庫，並把它進入高速研究&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>2017/03/02第二週</title><link href="./20170302di-er-zhou.html" rel="alternate"></link><published>2017-03-02T00:00:00+08:00</published><updated>2017-03-02T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-02:./20170302di-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Solve Space完成四連桿&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="orange"&gt;獲得了一個低頻電磁，我們現在可以採取通量數據庫，並把它進入高速研究&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>2017/03/02第二週</title><link href="./20170302di-er-zhou.html" rel="alternate"></link><updated>2017-03-02T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-03-02:./20170302di-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Solve Space完成四連桿&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
+
+&lt;p&gt;&lt;small&gt;&lt;b&gt;&lt;font color="#FF0000"&gt;心得：&lt;/font&gt;&lt;/b&gt;&lt;/small&gt;由於上課來不及畫完，所以回家自己看著老師的影片，在畫一次，邊畫邊理解又可以順便拍影片，不過想說得是solve space真的不好用，指令就那幾個，有時候還會莫名其妙出現紅色，來回弄了好幾遍，經歷百般波折後還是順利上岸了，第一周完成YA~&lt;/p&gt;
+&lt;hr/&gt;
 
 &lt;h1&gt;用solve space完成四連桿圖&lt;/h1&gt;
 &lt;h3&gt;Link1(30CM)&lt;/h3&gt;
@@ -43,6 +83,4 @@
 &lt;h3&gt;Link3(60CM)&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="./../picture/w2_link60.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;組合圖&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="./../picture/fourbar_move.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h3&gt;心得&lt;/h3&gt;
-&lt;p&gt;由於上課來不及畫完，所以回家自己看著老師的影片，在畫一次，邊畫邊理解又可以順便拍影片，不過想說得是solve space真的不好用，指令就那幾個，有時候還會莫名其妙出現紅色，來回弄了好幾遍，經歷百般波折後還是順利上岸了，第一周完成YA~&lt;/p&gt;</summary><category term="w2"></category></entry></feed>
+&lt;p&gt;&lt;iframe src="./../picture/fourbar_move.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="w2"></category></entry></feed>
