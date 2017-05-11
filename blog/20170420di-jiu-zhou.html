@@ -14,12 +14,13 @@
 
         <meta name="author" content="40423126" />
         <meta name="keywords" content="w9" />
+        <meta name="description" content="Brython 程式" />
 
         <meta property="og:site_name" content="40423126上課作業" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="2017/04/20第九週"/>
         <meta property="og:url" content="./20170420di-jiu-zhou.html"/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="Brython 程式"/>
         <meta property="article:published_time" content="2017-04-20" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="w9" />
@@ -155,7 +156,76 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p><b><font color="red">Brython 程式</font></b></p>
+
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+</script>
+
+<p><button id="button1">按下取 a 值</button></p>
+<p>上述按鈕取值程式碼:</p>
+<pre class="brush: python">
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+</script>
+<button id="button1">按下取 a 值</button>
+</pre>
             </div>
             <!-- /.entry-content -->
         </article>
