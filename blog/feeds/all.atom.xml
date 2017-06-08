@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T00:00:00+08:00</updated><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T00:00:00+08:00</updated><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="#9999FF"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -164,7 +164,7 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id='gear3' width='800' height='600'&gt;&lt;/canvas&gt;
+&lt;canvas id='gear3' width='1200' height='1100'&gt;&lt;/canvas&gt;
 
 &lt;script type="text/python3"&gt;
 # 導入 browser 模組中的 document, 並設為 doc 變數
@@ -307,14 +307,17 @@ n_g3 = 20
 n_g4 = 22
 # 第5齒輪齒數
 n_g5 = 24
+# 第6齒輪齒數
+n_g6 = 26
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 m = (0.8*canvas.width)/(n_g1+n_g2+n_g3+n_g4+n_g5)
 # 根據模數 m, 計算各齒輪的節圓半徑
-rp_g1 = m*n_g1/2
-rp_g2 = m*n_g2/2
-rp_g3 = m*n_g3/2
-rp_g4 = m*n_g4/2
-rp_g5 = m*n_g5/2
+rp_g1 = m*n_g1/1.5
+rp_g2 = m*n_g2/1.5
+rp_g3 = m*n_g3/1.5
+rp_g4 = m*n_g4/1.5
+rp_g5 = m*n_g5/1.5
+rp_g6 = m*n_g6/1.5
 #單一正齒輪繪圖呼叫格式 Spur(ctx).Gear(x, y, r, n, pa, "blue")
 # 開始繪製囓合齒輪輪廓
 # 繪圖第1齒輪的圓心座標, 因為希望繪圖佔去 canvas.width 的 80%, 所以兩邊各預留 10% 距離
@@ -333,6 +336,9 @@ y_g4 = y_g1
 # 第5齒輪的圓心座標
 x_g5 = x_g1 - rp_g1 - 2*rp_g2 - 2*rp_g3 - rp_g4
 y_g5 = y_g1 +rp_g4 +rp_g5
+# 第6齒輪的圓心座標
+x_g6 = x_g1 - rp_g1 - 2*rp_g2 - 2*rp_g3 - rp_g4
+y_g6 = y_g1 +rp_g4 +2*rp_g5 +rp_g6
 
 # 將第1齒輪順時鐘轉 90 度, 也就是 math.pi/2
 # 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
@@ -347,6 +353,12 @@ ctx.translate(-x_g1, -y_g1)
 Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
 ctx.restore()
 
+ctx.beginPath()
+ctx.fillStyle = "#0000FF"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423115",x_g1-20,y_g1)
+ctx.stroke()
+
 # 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
 ctx.save()
 # translate to the origin of second gear
@@ -357,6 +369,12 @@ ctx.rotate(-math.pi/2-math.pi/n_g2)
 ctx.translate(-x_g2, -y_g2)
 Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
 ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#000000"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423122",x_g2-20,y_g2)
+ctx.stroke()
 
 # 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
 ctx.save()
@@ -376,6 +394,12 @@ ctx.translate(-x_g3, -y_g3)
 Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "red")
 ctx.restore()
 
+ctx.beginPath()
+ctx.fillStyle = "#FF3333"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423126",x_g3-20,y_g3-20)
+ctx.stroke()
+
 # 將第4齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
 ctx.save()
 # translate to the origin of second gear
@@ -394,7 +418,13 @@ ctx.translate(-x_g4, -y_g4)
 Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "green")
 ctx.restore()
 
-# 將第5齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.beginPath()
+ctx.fillStyle = "#008800"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423135",x_g4-20,y_g4)
+ctx.stroke()
+
+# 將第5齒輪逆時鐘轉 90 度之後, 再往回轉第4齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
 ctx.save()
 # translate to the origin of second gear
 ctx.translate(x_g5, y_g5)
@@ -409,8 +439,39 @@ ctx.translate(x_g5, y_g5)
 ctx.rotate(-math.pi/3.455-math.pi/n_g5+(math.pi+math.pi/n_g4)*n_g4/n_g5)
 # put it back
 ctx.translate(-x_g5, -y_g5)
-Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "yellow")
+Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "goldenrod")
 ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#DAA520"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423145",x_g5-20,y_g5)
+ctx.stroke()
+
+# 將第6齒輪逆時鐘轉 90 度之後, 再往回轉第5齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g6, y_g6)
+# rotate to engage
+# math.pi+math.pi/n_g5 為第3齒輪從順時鐘轉 90 度之後, 必須配合目前的標記線所作的齒輪 4 轉動角度, 要轉換到齒輪 5 的轉動角度
+# 必須乘上兩齒輪齒數的比例, 若齒輪4 大, 則齒輪5 會轉動較快
+# 第1個 -math.pi/2 為將原先垂直的第5齒輪定位線逆時鐘旋轉 90 度
+# -math.pi/n_g6 則是第3齒與第2齒定位線重合後, 必須再逆時鐘多轉一齒的轉角, 以便進行囓合
+# (math.pi+math.pi/n_g4)*n_g4/n_g5 則是第2齒原定位線為順時鐘轉動 90 度, 
+# 但是第2齒輪為了與第1齒輪囓合, 已經距離定位線, 多轉了 180 度, 再加上第2齒輪的一齒角度, 因為要帶動第3齒輪定位, 
+# 這個修正角度必須要再配合第2齒與第3齒的轉速比加以轉換成第3齒輪的轉角, 因此乘上 n_g4/n_g5
+ctx.rotate(-math.pi/2.5785-math.pi/n_g6+(math.pi+math.pi/n_g5)*n_g5/n_g6)
+# put it back
+ctx.translate(-x_g6, -y_g6)
+Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "pink")
+ctx.restore()
+
+ctx.beginPath()
+ctx.fillStyle = "#FFB7DD"
+ctx.font = "20px ScriptS"
+ctx.fillText("40423150",x_g6-20,y_g6)
+ctx.stroke()
+
 &lt;/script&gt;
 
 &lt;h3&gt;第六組齒輪組合&lt;/h3&gt;
@@ -418,7 +479,7 @@ ctx.restore()
 &lt;p&gt;&lt;a href="https://40423122.github.io/2017springcd_hw/blog/20170601.html"&gt;&lt;b&gt;&lt;font color="black"&gt;40423122&lt;/font&gt;&lt;/b&gt;&lt;/a&gt; &lt;b&gt;&lt;font color="black"&gt;- 18t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;40423126&lt;/font&gt;&lt;/b&gt; &lt;b&gt;&lt;font color="red"&gt;- 20t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://40423135.github.io/2017springcd_hw/blog/di-shi-wu-zhou-zuo-ye.html"&gt;&lt;b&gt;&lt;font color="green"&gt;40423135&lt;/font&gt;&lt;/b&gt;&lt;/a&gt; &lt;b&gt;&lt;font color="green"&gt;- 22t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://40423145.github.io/2017springcd_hw/blog/2017springcd-di-shi-wu-zhou.html"&gt;&lt;b&gt;&lt;font color="yellow"&gt;40423145&lt;/font&gt;&lt;/b&gt;&lt;/a&gt; &lt;b&gt;&lt;font color="yellow"&gt;- 24t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423145.github.io/2017springcd_hw/blog/2017springcd-di-shi-wu-zhou.html"&gt;&lt;b&gt;&lt;font color="goldenrod"&gt;40423145&lt;/font&gt;&lt;/b&gt;&lt;/a&gt; &lt;b&gt;&lt;font color="goldenrod"&gt;- 24t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://40423150.github.io/2017springcd_hw/blog/2017spring-cd%20Week15.html"&gt;&lt;b&gt;&lt;font color="pink"&gt;40423150&lt;/font&gt;&lt;/b&gt;&lt;/a&gt; &lt;b&gt;&lt;font color="pink"&gt;- 26t&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</summary><category term="w15"></category></entry><entry><title>2017/05/18第十三週</title><link href="./20170518di-shi-san-zhou.html" rel="alternate"></link><published>2017-05-18T00:00:00+08:00</published><updated>2017-05-18T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-05-18:./20170518di-shi-san-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;電腦拆裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 </summary><category term="w13"></category></entry><entry><title>2017/05/11第十二週</title><link href="./20170511di-shi-er-zhou.html" rel="alternate"></link><published>2017-05-11T00:00:00+08:00</published><updated>2017-05-11T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-05-11:./20170511di-shi-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;2D 正齒輪繪圖&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
