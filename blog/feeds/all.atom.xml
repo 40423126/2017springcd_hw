@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T00:00:00+08:00</updated><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="#9999FF"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423126上課作業</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-15T00:00:00+08:00</updated><entry><title>2017/06/15第十七週</title><link href="./20170615di-shi-qi-zhou.html" rel="alternate"></link><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-15:./20170615di-shi-qi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構 2D 靜態繪圖&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container &lt;= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="#9999FF"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
