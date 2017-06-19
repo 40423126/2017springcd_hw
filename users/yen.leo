@@ -56,6 +56,7 @@
 <v t="leo.20170518114528.1"><vh>@edit 20170518.md</vh></v>
 <v t="leo.20170601090624.1"><vh>@edit 20170601.md</vh></v>
 <v t="leo.20170615091050.1"><vh>@edit 20170615.md</vh></v>
+<v t="leo.20170619225545.1"><vh>@edit 期末報告.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
