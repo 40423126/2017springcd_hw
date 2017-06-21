@@ -8,45 +8,28 @@
 &lt;h3&gt;行走機構繪製(Onshape)&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/222493609" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/222493609"&gt;??_2017_06_21_17_25_57_968&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="w18"></category></entry><entry><title>2017/06/15第十七週</title><link href="./20170615di-shi-qi-zhou.html" rel="alternate"></link><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-15:./20170615di-shi-qi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構 2D 靜態繪圖&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222493609"&gt;??_2017_06_21_17_25_57_968&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;h3&gt;期末影片－７&lt;/h3&gt;
+&lt;p&gt;submodule各組員倉儲至第六組，並且在第六組網誌上新增組員望至連結點。&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/222538586" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222538586"&gt;40423126-2017springcd-final-7&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="w18"></category></entry><entry><title>2017/06/15第十七週</title><link href="./20170615di-shi-qi-zhou.html" rel="alternate"></link><published>2017-06-15T00:00:00+08:00</published><updated>2017-06-15T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-15:./20170615di-shi-qi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構 2D 靜態繪圖&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;h3&gt;solve space雙連桿-腳&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="./../picture/雙連桿-腳.html" width="600" height="450"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
+&lt;h3&gt;繪製雙連桿－上集&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222535263" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222535263"&gt;??_2017_06_21_23_12_24_972&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;h3&gt;繪製雙連桿－下集&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222535928" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-&lt;/script&gt;
-
-&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
-
-&lt;!--&lt;canvas id="w17" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
-
-&lt;div id="container" width="800" height="600"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-from browser import html
-import math
-container = doc['container']
-degree = math.pi/180
-def button1(event):
-    a = input("give me a")
-    container &lt;= str(math.cos(60*degree)+float(a))
-doc["button1"].bind("click", button1)
-&lt;/script&gt;
-
-&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222535928"&gt;??_2017_06_21_23_24_19_138&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
