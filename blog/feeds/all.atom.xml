@@ -37,7 +37,11 @@
 &lt;h3&gt;繪製雙連桿－下集&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/222535928" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/222535928"&gt;??_2017_06_21_23_24_19_138&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222535928"&gt;??_2017_06_21_23_24_19_138&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223482133" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223482133"&gt;_2017_06_29_00_38_57_808&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -1167,7 +1171,225 @@ def armPathFn(time, opts):
 
 cgo.animate(armGrp, initArm, armPathFn, animData)
 cgo.playAnimation()
-&lt;/script&gt;</summary><category term="w10"></category></entry><entry><title>2017/04/20第九週</title><link href="./20170420di-jiu-zhou.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-04-20:./20170420di-jiu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Brython 程式&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;</summary><category term="w10"></category></entry><entry><title>2017/04/27第十週(part2)</title><link href="./20170427di-shi-zhou-part2.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-04-27:./20170427di-shi-zhou-part2.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;加減乘除運算&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;h3&gt;W10運算實際操作影片&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223485068" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/223485068"&gt;_2017_06_29_01_00_00_251&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h1&gt;1.加法運算&lt;/h1&gt;
+&lt;p&gt;加法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b):                     //def用於定義函式和類型的方法
+    return a+b                     //將a+b值傳回主程式中
+&lt;/pre&gt;
+加法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys                         //插入sys檔案中函式
+sys.path.append("./w10")   //路徑
+import add                        //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2)          //演算&lt;/p&gt;
+&lt;p&gt;print(sum)                        //結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試加法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;h1&gt;2.減法運算&lt;/h1&gt;
+&lt;p&gt;減法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b):                           //def用於定義函式和類型的方法
+    return a-b                            //將a-b值傳回主程式中
+&lt;/pre&gt;
+-法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys                               //插入sys檔案中函式
+sys.path.append("./W10")        //路徑
+import add                              //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (6,2)                //演算&lt;/p&gt;
+&lt;p&gt;print(sum)                              //結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試減法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container1" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button2"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;h1&gt;3.乘法運算&lt;/h1&gt;
+&lt;p&gt;乘法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b):                        //def用於定義函式和類型的方法
+    return a* b                        //將a乘b值傳回主程式中
+&lt;/pre&gt;
+乘法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys                            //插入sys檔案中函式
+sys.path.append("./W10")     //路徑
+import add                           //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (6,2)             //演算&lt;/p&gt;
+&lt;p&gt;print(sum)                           //結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試乘法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container3" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button3"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;h1&gt;4.除法運算&lt;/h1&gt;
+&lt;p&gt;除法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b):                       //def用於定義函式和類型的方法
+    return a/b                        //將a/b值傳回主程式中
+&lt;/pre&gt;
+除法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys                           //插入sys檔案中所有函式
+sys.path.append(".W10")     //資料夾路徑
+import add                          //導入 add.py&lt;/p&gt;
+&lt;p&gt;xx = add.add (6,2)               //演算&lt;/p&gt;
+&lt;p&gt;print(xx)                             //結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試除法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;h3&gt;W10運算實際操作影片&lt;/h3&gt;</summary><category term="w10"></category></entry><entry><title>2017/04/20第九週</title><link href="./20170420di-jiu-zhou.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-04-20:./20170420di-jiu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Brython 程式&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
