@@ -23,6 +23,14 @@
 
 &lt;hr/&gt;
 
+&lt;h3&gt;期末影片－３&lt;/h3&gt;
+&lt;p&gt;將 https://github.com/scrum-1/cdbw17 倉儲納入作為 ｗ１７ 子目錄&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/223482133" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223482133"&gt;40423126-2017springcd-final-3&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr/&gt;
+
 &lt;h3&gt;期末影片－７&lt;/h3&gt;
 &lt;p&gt;submodule各組員倉儲至第六組，並且在第六組網誌上新增組員望至連結點。&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/222538586" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -42,9 +50,18 @@
 
 &lt;p&gt;&lt;a href="https://vimeo.com/222535928"&gt;??_2017_06_21_23_24_19_138&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3&gt;將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/223482133" width="640" height="339" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/223482133"&gt;_2017_06_29_00_38_57_808&lt;/a&gt; from &lt;a href="https://vimeo.com/user60322140"&gt;紀鈞瀚&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h3&gt;零件下載區&lt;/h3&gt;
+&lt;p&gt;&lt;a href="../w17/40423126.slvs"&gt;正方形桿子
+&lt;/a&gt; (按滑鼠右鍵存檔)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="../w17/連接桿.slvs"&gt;圓形連接桿
+&lt;/a&gt; (按滑鼠右鍵存檔)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="../w17/腳.slvs"&gt;兩腳－１
+&lt;/a&gt; (按滑鼠右鍵存檔)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="../w17/腳2.slvs"&gt;兩腳－２
+&lt;/a&gt; (按滑鼠右鍵存檔)&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>2017/06/01第十五週</title><link href="./20170601di-shi-wu-zhou.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423126</name></author><id>tag:,2017-06-01:./20170601di-shi-wu-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;第六組齒輪組合&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
